@@ -9,7 +9,7 @@ int main()
 
     for (int i = 0; i < 100000; i++)
     {
-        cout << "enter the signs to make the sum of the numbers: ";
+        cout << "enter the signs '+, -, *, /' to make the sum of the numbers: ";
         cin >> n;
 
         if (n == '+')
